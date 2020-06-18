@@ -1,0 +1,25 @@
+{
+  "name": "hng-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "env-cmd": "^10.1.0",
+    "twit": "^2.2.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "dev": "./node_modules/.bin/env-cmd -f ./dev.env nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ghvstcode/HNG-BOT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ghvstcode/HNG-BOT/issues"
+  },
+  "homepage": "https://github.com/Ghvstcode/HNG-BOT#readme"
+}
